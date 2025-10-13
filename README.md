@@ -5,7 +5,7 @@
 
 ## Hipótesis
 
-Los diferentes tipos de cobertura vegetal en los ecosistemas altiplánicos de los Parques Nacionales Lauca y Volcán Isluga presentan patrones fenológicos diferenciados y predecibles, cuya variabilidad temporal está significativamente determinada por la precipitación acumulada y la temperatura, con desfases temporales específicos para cada tipo de cobertura.
+Los diferentes tipos de cobertura vegetal en los ecosistemas altiplánicos de los Parques Nacionales Lauca y Volcán Isluga presentan patrones fenológicos diferenciados con variabilidad temporal está significativamente determinada por la precipitación y la temperatura, con desfases temporales específicos para cada tipo de cobertura.
 
 ## Objetivo
 Caracterizar los patrones fenológicos de diferentes tipos de cobertura vegetal en ecosistemas altiplánicos del norte de Chile mediante series temporales de NDVI de alta resolución temporal (Sentinel-2, 2018-2024) y evaluar su relación con variables climáticas.
