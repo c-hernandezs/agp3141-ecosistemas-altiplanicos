@@ -50,7 +50,7 @@ Caracterizar los patrones fenológicos de diferentes tipos de cobertura vegetal 
 ## Organización de Carpetas
 
 ```
-agp3141-ecosistemas-altiplanicos/
+agp3141-fenologia-ecosistemas-altiplanicos/
 │
 ├── README.md                          # Este archivo
 │
