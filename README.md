@@ -4,7 +4,7 @@
 ¿Cómo varían los patrones fenológicos de la vegetación entre diferentes tipos de cobertura vegetal en el Parque Nacional Lauca, y cuál es su relación con la precipitación y temperatura en el período 2014-2024?
 
 ## Hipótesis
-Los diferentes tipos de cobertura vegetal en los ecosistemas altiplánicos del Parque Nacional Lauca presentan patrones fenológicos diferenciados cuya variabilidad temporal está significativamente determinada por la precipitación y la temperatura, con desfases temporales específicos para cada tipo de cobertura.
+Los diferentes tipos de cobertura vegetal en los ecosistemas altiplánicos del Parque Nacional Lauca presentan patrones fenológicos diferenciados cuya variabilidad temporal está significativamente determinada por la precipitación, con desfases temporales específicos para cada tipo de cobertura.
 
 ## Objetivo
 Caracterizar los patrones fenológicos de diferentes tipos de cobertura vegetal en ecosistemas altiplánicos del norte de Chile mediante series temporales de NDVI de alta resolución temporal (Landsat, 2014-2024) y evaluar su relación con variables climáticas.
@@ -25,7 +25,6 @@ Caracterizar los patrones fenológicos de diferentes tipos de cobertura vegetal 
 **CR2MET** (Centro de Ciencia del Clima y la Resiliencia)
 - **Variables:** 
   - Precipitación (mm/día)
-  - Temperatura (°C)
 - **Resolución espacial:** ~5 km (0.05°)
 - **Resolución temporal:** Diaria
 - **Formato:** NetCDF4 / CSV
