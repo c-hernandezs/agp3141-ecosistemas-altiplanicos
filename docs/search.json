@@ -2,15 +2,15 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "vegetation-phenology-chilean-altiplano",
+    "title": "Vegetation Phenology - Chilean Altiplano",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Parque Nacional Lauca\n\n\nEste proyecto entrega información sobre fenologia de ecosistemas de alta montaña en el Parque Nacional Lauca usando series temporales de NDVI."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "objectID": "about.html#datos",
+    "href": "about.html#datos",
+    "title": "Análisis exploratorio",
+    "section": "Datos",
+    "text": "Datos\n\nNDVI: Landsat 2014-2024\nClima: Precipitación y temperatura\nVegetación: Coberturas categorizadas"
   }
 ]

@@ -1,11 +1,7 @@
 ---
-title: "vegetation-phenology-chilean-altiplano"
+title: "Vegetation Phenology - Chilean Altiplano"
 ---
 
-This is a Quarto website.
+![Parque Nacional Lauca](images/foto%20conaf.jpg)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Este proyecto entrega información sobre fenologia de ecosistemas de alta montaña en el Parque Nacional Lauca usando series temporales de NDVI.
