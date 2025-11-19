@@ -2,9 +2,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Vegetation Phenology - Chilean Altiplano",
+    "title": "Productividad del Altiplano Chileno",
     "section": "",
-    "text": "Parque Nacional Lauca\n\n\nEste proyecto entrega información sobre fenologia de ecosistemas de alta montaña en el Parque Nacional Lauca usando series temporales de NDVI."
+    "text": "Análisis de dinámica vegetacional en ecosistemas de alta montaña usando series temporales de NDVI\n\n\n\nAUTOR\nConstanza Hernández\n\n\nCURSO\nMSc Natural Resources / AGP3141-1"
+  },
+  {
+    "objectID": "index.html#sobre-el-proyecto",
+    "href": "index.html#sobre-el-proyecto",
+    "title": "Productividad del Altiplano Chileno",
+    "section": "Sobre el proyecto",
+    "text": "Sobre el proyecto\nEste proyecto analiza la dinámica de productividad de ecosistemas de alta montaña en el Parque Nacional Lauca."
+  },
+  {
+    "objectID": "index.html#objetivos",
+    "href": "index.html#objetivos",
+    "title": "Productividad del Altiplano Chileno",
+    "section": "Objetivos",
+    "text": "Objetivos\nCaracterizar los patrones fenológicos de diferentes tipos de cobertura vegetal en ecosistemas altiplánicos del norte de Chile mediante series temporales de NDVI de alta resolución temporal (Landsat, 2014-2024) y evaluar su relación con variables climática\n\nAnalizar patrones estacionales de vegetación\nEvaluar variabilidad interanual\nCorrelacionar con variables climáticas"
   },
   {
     "objectID": "about.html#datos",

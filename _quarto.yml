@@ -3,8 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "vegetation-phenology-chilean-altiplano"
+  title: "Fenología del Altiplano Chileno"
   navbar:
+    background: dark
     left:
       - href: index.qmd
         text: Home
