@@ -45,3 +45,27 @@ serie_mensual_lauca |>
         panel.grid.minor.y = element_blank(),
         panel.grid.major.x = element_blank())
 
+# Gráfico en facetas ----
+ggplot(ciclos_anuales, aes(x = mes, y = precipitacion_acumulada_mensual)) +
+  geom_area(fill = "steelblue", alpha = 0.6) +
+  geom_line(color = "steelblue", linewidth = 1) +
+  geom_line(data = mediana_historica,
+            aes(x = mes, y = precip_mediana),
+            color = "red", linewidth = 0.8, linetype = "dashed",
+            inherit.aes = FALSE) +
+  facet_wrap(~ agno, ncol = 4) +
+  scale_x_continuous(
+    breaks = c(1, 4, 7, 10),
+    labels = c("E", "A", "J", "O")
+  ) +
+  labs(
+    title = "Ciclos Anuales de Precipitación por Año - Lauca",
+    x = "Mes",
+    y = "Precipitación (mm)"
+  ) +
+  theme_classic() +
+  theme(
+    strip.background = element_rect(fill = "gray90"),
+    strip.text = element_text(face = "bold", size = 10),
+    panel.grid.major.y = element_line(color = "gray90", linewidth = 0.2)
+  )
