@@ -4,10 +4,10 @@
 ¿Cómo varían los patrones fenológicos de la vegetación entre diferentes tipos de cobertura vegetal en el Parque Nacional Lauca, y cuál es su relación con la precipitación y temperatura en el período 2014-2024?
 
 ## Hipótesis
-Los diferentes tipos de cobertura vegetal en los ecosistemas altiplánicos del Parque Nacional Lauca presentan patrones fenológicos diferenciados cuya variabilidad temporal está significativamente determinada por la precipitación, con desfases temporales específicos para cada tipo de cobertura.
+Los diferentes tipos de cobertura vegetal en los ecosistemas altiplánicos del Parque Nacional Lauca presentan patrones de productividad diferenciados cuya variabilidad temporal está significativamente determinada por la precipitación, con desfases temporales específicos para cada tipo de cobertura.
 
 ## Objetivo
-Caracterizar los patrones fenológicos de diferentes tipos de cobertura vegetal en ecosistemas altiplánicos del norte de Chile mediante series temporales de NDVI de alta resolución temporal (Landsat, 2014-2024) y evaluar su relación con variables climáticas.
+Caracterizar los patrones de productividad de diferentes tipos de cobertura vegetal en ecosistemas altiplánicos del norte de Chile mediante proxy de productividad primaria con series temporales de NDVI de alta resolución temporal (Landsat, 2014-2024) y evaluar su relación con variables climáticas.
 
 ## Datos 
 
@@ -61,28 +61,21 @@ agp3141-fenologia-ecosistemas-altiplanicos/
 │   └── figuras/
 │       └── plot-figura.png
 │
-├── Fenologia/                         # Análisis Fenológico
+├── Análisis NDVI/                         # Análisis NDVI
 │   ├── codigos/
-│   │   ├── calculo-fenologia.R
-│   │   └── visualizacion-fenologia.R
+│   │   └── NDVI-por-cobsuelo.R
+│   │   
 │   └── figuras/
-│       └── plot-fenologia.png
+│       ├── plot-mapas-ndvi.png
+│       └── plot-serie-ndvi-coberturas.png
 │
-└── Fenologia-y-clima/                 # Análisis Fenología-Clima
+└── NDVI-y-clima/                 # Análisis NDVI-Clima
     ├── codigos/
-    │   ├── comparacion-fenologia.R
+    │   ├── comparacion-clima-ndvi.R
     │   └── visualizacion-comparacion.R
     └── figuras/
-        └── plot-figura.png
+        └── plot-series-comparadas.png
 ```
-
-## Métricas Fenológicas
-- **SOS (Start of Season)**: Inicio de la temporada de crecimiento
-- **POS (Peak of Season)**: Momento de máxima actividad fotosintética
-- **EOS (End of Season)**: Fin de la temporada de crecimiento
-- **LOS (Length of Season)**: Duración de la temporada de crecimiento (días)
-
----
 
 ## Autor
 **Constanza Hernández**  
