@@ -1,0 +1,112 @@
+/* Eliminar márgenes globales */
+body {
+  overflow-x: hidden;
+}
+
+main.content {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Banner hero - PANTALLA COMPLETA */
+.hero-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+                    url('images/foto conaf.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  padding: 80px 20px 50px 20px;
+  color: white;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -3em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Contenido del hero */
+.hero-content {
+  max-width: 900px;
+  margin: 0 auto 50px auto;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-bottom: 0.4em;
+  line-height: 1.1;
+  color: white;
+}
+
+.hero-content p {
+  font-size: 1.4em;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.4;
+  color: white;
+}
+
+/* Metadata del hero */
+.hero-metadata {
+  display: flex;
+  gap: 60px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px 0 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  width: 100%;
+}
+
+.metadata-item {
+  font-size: 0.95em;
+  color: white;
+}
+
+.metadata-item strong {
+  display: block;
+  font-size: 0.75em;
+  letter-spacing: 1.5px;
+  margin-bottom: 6px;
+  opacity: 0.8;
+  font-weight: 600;
+}
+
+/* Contenido normal con padding */
+h2, p, ul, ol {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Línea debajo de títulos */
+h2 {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 0.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+/* Navbar negro */
+.navbar {
+  background-color: black !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+/* Ocultar título automático */
+.quarto-title-banner,
+.quarto-title,
+h1.title {
+  display: none;
+}
